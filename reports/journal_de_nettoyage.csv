@@ -1,0 +1,10 @@
+etape,defaut,decision,lignes_concernees
+1,Première colonne sans nom (« Unnamed: 0 »),Renommée « date »,16436
+2,Dates non reconnues,Aucune : format AAAA-MM-JJ partout,0
+4,Codes -999 (valeurs manquantes NASA),Aucun code -999 trouvé,0
+5,Dates en double,Aucun doublon,0
+6,Jours absents du calendrier,Calendrier complet,0
+7,Valeurs physiquement impossibles (5 règles),Aucune violation,0
+8,T2M_MAX signalées par la règle de l'IQR,"Examinées et conservées : températures plausibles, événements réels",3
+9,Valeurs manquantes,Trous <= 2 jours interpolés ; plus longs laissés vides,0
+10,Manquants restants,À signaler dans le rapport,0
