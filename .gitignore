@@ -1,0 +1,36 @@
+# Environnements Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets et configuration locale
+.env
+*.key
+secrets.*
+
+# Modèles lourds (partagés autrement si besoin)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+models/*.pt
+
+# Base de données locale de l'application
+*.sqlite
+*.db
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Documents temporaires de Word
+~$*
